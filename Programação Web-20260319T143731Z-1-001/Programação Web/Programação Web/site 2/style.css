@@ -1,0 +1,10 @@
+header {
+    text-align: center;
+    font-size: 32px;
+    color: darkcyan;
+}
+
+main {
+    flex: 1;
+    
+}
