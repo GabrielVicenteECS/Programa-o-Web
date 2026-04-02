@@ -1,0 +1,38 @@
+body {
+    background-color: darkblue;
+    text-align: center;
+}
+
+header {
+    background: black;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+#cartao {
+    text-align: center;
+    background-color: red;
+    color: white
+}
+
+image{ 
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-color: chocolate;
+   
+}
+
+footer {
+    background: black;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    min-height: 90px;
+}
+
