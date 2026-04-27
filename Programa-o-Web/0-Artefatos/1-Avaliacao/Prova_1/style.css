@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: rgb(2, 167, 218);
+}
+
+#cartao {
+    border: 3px solid yellow;
+    text-align: center;
+    background-color: darkolivegreen;
+    color: white
+}
+
+img{ 
+    width: 200px;
+    border-radius: 50%;
+}
+
+ul li{
+    list-style: none;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+footer {
+    margin: 499px 0 0 0;
+    background-color: black;
+    color: aliceblue;
+    padding: 35px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+

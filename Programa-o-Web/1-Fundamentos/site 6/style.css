@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+nav {
+    background-color: rgba(1, 23, 95, 0.726);
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 0 10px 10px;
+}
