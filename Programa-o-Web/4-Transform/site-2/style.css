@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body{
-    perspective: 1000;
-}
-
 div {
     position: absolute;
     top: 150px;
@@ -16,5 +12,5 @@ div {
     height: 200px;
     background-color: darkorange;
 
-    transform: rotateX(45deg);
+    transform: rotateZ(45deg);
 }

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-size: 100vh;
+    background-color: black;
+}
+
+#topo-esq {
+    position: absolute;
+    margin: 25px;
+    top: 0;
+    left: 0;
+
+    border: solid;
+    border-radius: 0;
+    border-color:green;
+    box-shadow: 0 0 100px green;
+
+    width: 100px;
+    height: 100px;
+    transition: background-color 3s, rotate 3s
+}
+
+#topo-dir {
+    position: absolute;
+    margin: 25px;
+    top: 0;
+    right: 0;
+
+    border: solid;
+    border-radius: 0;
+    border-color:green;
+    box-shadow: 0 0 100px green;
+
+    width: 100px;
+    height: 100px;
+    transition: background-color 3s, rotate 3s
+}
+
+#baixo-esq {
+    position: absolute;
+    margin: 25px;
+    top: 83%;
+    right: 0;
+
+    border: solid;
+    border-radius: 0;
+    border-color:green;
+    box-shadow: 0 0 100px green;
+
+    width: 100px;
+    height: 100px;
+    transition: background-color 3s, rotate 3s
+}
+
+#baixo-dir {
+    position: absolute;
+    margin: 25px;
+    top: 83%;
+    left: 0;
+
+    border: solid;
+    border-radius: 0;
+    border-color:green;
+    box-shadow: 0 0 100px green;
+
+    width: 100px;
+    height: 100px;
+    transition: background-color 3s, rotate 3s
+}
+
+#centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: solid;
+    border-color:yellow;
+    box-shadow: 0 0 200px yellow;
+
+    width: 100px;
+    height: 100px;
+    
+    transition: rotate 3s, border-color 3s, background-color 3s, border-radius 3s
+}
+
+#centro:hover {
+    transform: translate(-50%, -50%), rotate(45deg);
+    border-color: white;
+    background-color: gold;
+    border-radius: 50%;
+}
+
+div:hover {
+    height: 100px;
+    background-color: gold;
+    rotate: 45deg;
+}
