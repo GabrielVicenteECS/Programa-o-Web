@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    gap: 20px;
+   
+}
+
+.superior {
+    display: flex;
+    border-radius: 5px;
+    gap: 50px;
+}
+
+.caixa-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    width: 50%;
+    height: 80px;
+    background: linear-gradient(135deg, #85006e, #e002e0);
+}
+
+.central {
+    display: flex;
+    border-radius: 5px;
+    gap: 50px;
+}
+
+.caixa-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #00da54, #047857);
+    height: 650px;
+}
+
+.caixa-barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #f71201, #f39406);
+    flex: 1;
+    height: 650px;
+}
+
+.inferior {
+    display: flex;
+    border-radius: 5px;
+    gap: 50px;
+    height: 100vh;
+}
+
+.caixa-inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 50%;
+    height: 80px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #2b29c9, #01b2be);
+}
+
+.caixa {
+    cursor: pointer;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.caixa:hover {
+    transform: translateY(-5px);
+}

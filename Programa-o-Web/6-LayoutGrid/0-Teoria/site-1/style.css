@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.jogo-da-velha {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-color: beige;
+  padding: 1px;
+  height: 300px;
+  width: 300px;
+}
+
+.casa {
+  background-color: darkred;
+  border: 5px solid white;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.7s ease;
+}
+
+.casa:hover {
+    transform: translateY(45deg);
+    background-color: red;
+    transform: scale(1.1);
+}
+
+
+
+

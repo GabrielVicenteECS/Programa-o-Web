@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    background-color: darkblue;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.items {
+
+    padding: 30px;
+    background-color: burlywood;
+    margin: 5px;
+}
